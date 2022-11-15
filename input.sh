@@ -18,3 +18,15 @@ echo "Your username is $user_var"
 #How about we don't want to show what the user is typing
 read -sp "Password: " pass
 echo "Your password is $pass"
+
+# What if we want the user to have multiple inputs
+# We'll use a flag -a (to read an array)
+echo "Enter items: "
+read -a names
+echo "Names are ${names[0]}, ${names[1]}"
+
+
+# The defult variable where our input goes is $REPLY
+echo "Enter your club: "
+read
+echo "Name of club is $REPLY"
