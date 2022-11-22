@@ -7,6 +7,8 @@ read file_name
 #-d flag is to test if directory exist
 #-f for block special files e.g videos,images we use -b
 #-c for character special files like texts,docs we use -c
+#-s is a flag to check if file is empty
+
 if [ -e $file_name ]
 then
     echo "$file_name found"
