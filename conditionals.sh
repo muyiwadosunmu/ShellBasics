@@ -7,4 +7,4 @@ count = 10
 if [$count ]
 then
     statement
-fi 
+fi
