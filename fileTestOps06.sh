@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# -e flag helps to keep the \c in place on thre line
 echo -e "Enter name of the file: \c"
 read file_name
 
