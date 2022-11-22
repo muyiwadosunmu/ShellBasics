@@ -8,7 +8,7 @@ echo "Hello World"
 echo Our shell name is $BASH
 echo Our shell version is $BASH_VERSION
 echo This is the home directory- $HOME
-echo Our current working directory is $PWD
+echo Our current working directory is $PWD\n
 
 #User defined variables
 name=Muyiwa

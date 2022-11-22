@@ -8,7 +8,7 @@ echo "You entered: $name"
 
 echo "Fullname: "
 read firstName lastName
-echo "You entered : $firstName $lastName"
+echo "You entered : $firstName, $lastName"
 
 #To make the read work on same line just like while logging in
 
